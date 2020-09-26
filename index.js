@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api')
 const scrapeArticles = require('./scrapeArticles')
-const token = '1197256525:AAEWOksnHq0rfPlsglnMcZ-GXYIW_VHcK-A'
+const token = 'YOUR_TOKEN'
 const bot = new TelegramBot(token, { polling: true })
 
 bot.onText(/\/start/, async(msg) => {
